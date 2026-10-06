@@ -1,0 +1,43 @@
+Ultimate Humanizer includes material adapted from the works below.
+
+1. Wikipedia: Signs of AI writing
+   https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing
+   By Wikipedia contributors (WikiProject AI Cleanup), October 2026 revision.
+   Licensed under the Creative Commons Attribution-ShareAlike 4.0 License
+   (https://creativecommons.org/licenses/by-sa/4.0/).
+   Rules R0 to R66 in SKILL.md summarize that page, reuse its word lists and
+   quote a few of its example phrases. Changes: reorganized into numbered
+   rules, reworded as instructions, merged with the sources below.
+
+2. humanizer by Siqi Chen
+   https://github.com/blader/humanizer
+   Copyright (c) 2025 Siqi Chen. MIT License.
+
+3. humanizer port in Hermes Agent
+   https://github.com/nousresearch/hermes-agent (skills/creative/humanizer)
+   Copyright (c) 2025 Nous Research. MIT License.
+
+4. no-ai-slop by Peter Yang
+   https://github.com/petergyang/no-ai-slop
+   Copyright (c) 2026 Peter Yang. MIT License.
+
+The MIT License text for items 2 to 4 is identical to the text in LICENSE,
+with the copyright lines shown above:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
