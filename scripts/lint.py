@@ -124,7 +124,7 @@ FAIL_REGEX = [
             r"\[[A-Z][^\]\n]{0,40}(?:Name|Topic|link|URL|Describe)[^\]\n]*\]|"
             r"\(Add your [^)]*here\)|Add if available"),
     ("R16", r"(?m)^\s*(?:[-*\u2022\u2013]|\d+\.)\s*(?:\*\*|''')[^*'\n]{1,60}?(?::(?:\*\*|''')|(?:\*\*|''')\s*:)"),
-    ("R11", r"(?i)\bnot (?:only|just|merely)\b[^.!?\n]{0,80}\bbut\b"),
+    ("R11", r"(?i)\bnot (?:only|just|merely)\b[^.!?\n]{0,80}(?:\bbut\b|[,;] it'?s\b)"),
     ("R3", r"(?i)[,\u2014]\s*(?:highlighting|underscoring|emphasizing|reflecting|symbolizing|"
            r"showcasing|fostering|ensuring|contributing to|cultivating|encompassing|"
            r"enhancing|demonstrating|illustrating|solidifying|marking)\b"),

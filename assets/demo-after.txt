@@ -1,0 +1,1 @@
+Ultimate Humanizer is a Claude Code skill. It contains a set of writing rules and a Python lint script that checks a draft against them.
