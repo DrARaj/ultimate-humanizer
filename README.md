@@ -4,7 +4,11 @@
   <a href="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml"><img src="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml/badge.svg" alt="lint selftest"></a>
   <a href="https://github.com/DrARaj/ultimate-humanizer/releases"><img src="https://img.shields.io/github/v/release/DrARaj/ultimate-humanizer" alt="release"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/DrARaj/ultimate-humanizer" alt="license"></a>
+  <a href="https://github.com/DrARaj/ultimate-humanizer/stargazers"><img src="https://img.shields.io/github/stars/DrARaj/ultimate-humanizer?style=flat&logo=github" alt="stars"></a>
+  <img src="https://img.shields.io/badge/Claude%20Code-skill-D97757?logo=claude&logoColor=white" alt="Claude Code skill">
 </p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt=""></p>
 
 # Ultimate Humanizer
 
@@ -186,3 +190,5 @@ Built on the Wikipedia guide "Signs of AI writing" by WikiProject AI Cleanup (CC
 ## License
 
 MIT, see `LICENSE`. Third-party material keeps its original license, listed in `NOTICE`. The banner source is [`assets/banner.html`](assets/banner.html).
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:D97757&height=100&section=footer" alt="" width="100%" />
