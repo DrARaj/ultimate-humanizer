@@ -1,0 +1,13 @@
+# Python build & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini

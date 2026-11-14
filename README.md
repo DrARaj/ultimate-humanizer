@@ -144,11 +144,60 @@ R0 sits above all of them: never invent a fact, source, person, example or opini
 
 ## Install
 
+### 1. Claude Code
+
+**macOS / Linux:**
 ```sh
 git clone https://github.com/DrARaj/ultimate-humanizer ~/.claude/skills/ultimate-humanizer
 ```
 
+**Windows (PowerShell):**
+```powershell
+git clone https://github.com/DrARaj/ultimate-humanizer.git "$HOME\.claude\skills\ultimate-humanizer"
+```
+
+**One-line Quick Install:**
+- macOS / Linux:
+  ```sh
+  curl -fsSL https://raw.githubusercontent.com/DrARaj/ultimate-humanizer/main/scripts/install.sh | bash
+  ```
+- Windows (PowerShell):
+  ```powershell
+  irm https://raw.githubusercontent.com/DrARaj/ultimate-humanizer/main/scripts/install.ps1 | iex
+  ```
+
 Restart Claude Code. The skill shows up as `/ultimate-humanizer`.
+
+### 2. Standalone CLI & Python Package
+
+Install via pip directly from GitHub:
+```sh
+pip install git+https://github.com/DrARaj/ultimate-humanizer.git
+```
+Then run anywhere:
+```sh
+ultimate-humanizer draft.md
+# or
+ai-lint draft.md
+```
+
+### 3. Pre-Commit Hook (Git Repositories & CI)
+
+Catch AI tells before commits land in PRs. Add this to your `.pre-commit-config.yaml`:
+
+```yaml
+repos:
+  - repo: https://github.com/DrARaj/ultimate-humanizer
+    rev: v1.0.0
+    hooks:
+      - id: ultimate-humanizer
+```
+
+### 4. Antigravity / Gemini CLI
+
+```sh
+git clone https://github.com/DrARaj/ultimate-humanizer.git ~/.gemini/antigravity/skills/ultimate-humanizer
+```
 
 ## Use
 

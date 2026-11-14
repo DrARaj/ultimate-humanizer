@@ -1,0 +1,30 @@
+name: Suggest a new AI Tell / Rule
+description: Propose a new AI-writing pattern, overused phrase, or tell to add to the rulebook.
+labels: ["enhancement", "rules"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Ultimate Humanizer!
+  - type: input
+    id: pattern
+    attributes:
+      label: Banned Phrase or Pattern
+      description: What is the specific word, phrase, or construction?
+      placeholder: e.g. "beacon of hope", "in essence"
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is this an AI tell?
+      description: Cite evidence, model tendencies, or frequency in LLM output.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example Sentence(s)
+      description: Provide before/after or real-world occurrences.
+    validations:
+      required: true

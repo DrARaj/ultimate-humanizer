@@ -1,0 +1,26 @@
+name: Report a False Positive
+description: Report a human phrase or valid construction incorrectly flagged by lint.py.
+labels: ["bug", "false-positive"]
+body:
+  - type: input
+    id: rule
+    attributes:
+      label: Flagged Rule Number
+      description: Which rule was triggered? (e.g. R9, R11)
+      placeholder: e.g. R9
+    validations:
+      required: true
+  - type: textarea
+    id: snippet
+    attributes:
+      label: Text Snippet
+      description: Quote the exact sentence or paragraph that triggered the flag.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context & Why it should be allowed
+      description: Explain why this is natural, non-AI prose in this context.
+    validations:
+      required: true

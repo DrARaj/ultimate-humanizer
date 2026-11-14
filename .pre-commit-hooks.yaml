@@ -1,0 +1,7 @@
+- id: ultimate-humanizer
+  name: ultimate-humanizer
+  description: Flags mechanical AI-writing tells in prose and markdown files
+  entry: ultimate-humanizer
+  language: python
+  types: [text]
+  files: \.(md|markdown|txt|rst|wikitext)$

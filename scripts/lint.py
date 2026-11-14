@@ -199,7 +199,9 @@ def selftest():
     print("selftest ok")
 
 
-def main(argv):
+def main(argv=None):
+    if argv is None:
+        argv = sys.argv
     if argv[1:] == ["--selftest"]:
         selftest()
         return 0
