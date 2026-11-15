@@ -1,10 +1,10 @@
 <p align="center"><img src="assets/banner.png" alt="Ultimate Humanizer: delve, tapestry, pivotal and other stock phrasing struck through" width="100%"></p>
 
 <p align="center">
-  <a href="https://github.com//ultimate-humanizer/actions/workflows/lint.yml"><img src="https://github.com//ultimate-humanizer/actions/workflows/lint.yml/badge.svg" alt="lint selftest status"></a>
-  <a href="https://github.com//ultimate-humanizer/releases"><img src="https://img.shields.io/github/v/release//ultimate-humanizer?style=flat-square&color=D97757" alt="latest release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license//ultimate-humanizer?style=flat-square" alt="licence"></a>
-  <a href="https://github.com//ultimate-humanizer/stargazers"><img src="https://img.shields.io/github/stars//ultimate-humanizer?style=flat-square&logo=github" alt="GitHub stars"></a>
+  <a href="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml"><img src="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml/badge.svg" alt="lint selftest status"></a>
+  <a href="https://github.com/DrARaj/ultimate-humanizer/releases"><img src="https://img.shields.io/github/v/release/DrARaj/ultimate-humanizer?style=flat-square&color=D97757" alt="latest release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/DrARaj/ultimate-humanizer?style=flat-square" alt="licence"></a>
+  <a href="https://github.com/DrARaj/ultimate-humanizer/stargazers"><img src="https://img.shields.io/github/stars/DrARaj/ultimate-humanizer?style=flat-square&logo=github" alt="GitHub stars"></a>
   <img src="https://img.shields.io/badge/Claude%20Code-skill-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code skill">
 </p>
 
@@ -17,8 +17,8 @@
 A Claude Code writing-style guide and linter. It turns the patterns in Wikipedia's "Signs of AI writing" field guide into 91 numbered rules, adds patterns from the humanizer and no-ai-slop skills, and ships a lint script that flags phrasing habits common in AI-generated prose, which human writers also use. It helps you edit prose. It does not detect or judge who wrote a text.
 
 ```sh
-claude plugin marketplace add /ultimate-humanizer
-claude plugin install ultimate-humanizer@
+claude plugin marketplace add DrARaj/ultimate-humanizer
+claude plugin install ultimate-humanizer@draraj
 ```
 
 Restart Claude Code, then type `/ultimate-humanizer`. Other install routes are [below](#install).
@@ -157,23 +157,23 @@ R0 sits above all of them: never invent a fact, source, person, example or opini
 
 **Plugin marketplace (recommended):**
 ```sh
-claude plugin marketplace add /ultimate-humanizer
-claude plugin install ultimate-humanizer@
+claude plugin marketplace add DrARaj/ultimate-humanizer
+claude plugin install ultimate-humanizer@draraj
 ```
 
 **Skills CLI (untested):**
 ```sh
-npx skills add /ultimate-humanizer
+npx skills add DrARaj/ultimate-humanizer
 ```
 
 **macOS / Linux:**
 ```sh
-git clone https://github.com//ultimate-humanizer ~/.claude/skills/ultimate-humanizer
+git clone https://github.com/DrARaj/ultimate-humanizer ~/.claude/skills/ultimate-humanizer
 ```
 
 **Windows (PowerShell):**
 ```powershell
-git clone https://github.com//ultimate-humanizer.git "$HOME\.claude\skills\ultimate-humanizer"
+git clone https://github.com/DrARaj/ultimate-humanizer.git "$HOME\.claude\skills\ultimate-humanizer"
 ```
 
 Restart Claude Code. The skill shows up as `/ultimate-humanizer`.
@@ -182,7 +182,7 @@ Restart Claude Code. The skill shows up as `/ultimate-humanizer`.
 
 Install via pip directly from GitHub:
 ```sh
-pip install git+https://github.com//ultimate-humanizer.git
+pip install git+https://github.com/DrARaj/ultimate-humanizer.git
 ```
 Then run anywhere:
 ```sh
@@ -197,8 +197,8 @@ Flag stock phrasing before commits land in PRs. Add this to your `.pre-commit-co
 
 ```yaml
 repos:
-  - repo: https://github.com//ultimate-humanizer
-    rev: v1.1.3
+  - repo: https://github.com/DrARaj/ultimate-humanizer
+    rev: v1.1.4
     hooks:
       - id: ultimate-humanizer
 ```
@@ -206,7 +206,7 @@ repos:
 ### 4. Antigravity / Gemini CLI
 
 ```sh
-git clone https://github.com//ultimate-humanizer.git ~/.gemini/antigravity/skills/ultimate-humanizer
+git clone https://github.com/DrARaj/ultimate-humanizer.git ~/.gemini/antigravity/skills/ultimate-humanizer
 ```
 
 ## Use
