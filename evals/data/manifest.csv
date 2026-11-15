@@ -1,0 +1,101 @@
+id,set,source_url,licence,retrieved,topic,words
+wiki01,human-wiki,https://en.wikipedia.org/w/index.php?title=Photosynthesis&oldid=1062819171,CC BY-SA 4.0,2026-11-15,Photosynthesis,127
+wiki02,human-wiki,https://en.wikipedia.org/w/index.php?title=Plate_tectonics&oldid=1061821444,CC BY-SA 4.0,2026-11-15,Plate tectonics,151
+wiki03,human-wiki,https://en.wikipedia.org/w/index.php?title=Superconductivity&oldid=1055345720,CC BY-SA 4.0,2026-11-15,Superconductivity,119
+wiki04,human-wiki,https://en.wikipedia.org/w/index.php?title=Black_hole&oldid=1062544359,CC BY-SA 4.0,2026-11-15,Black hole,131
+wiki05,human-wiki,https://en.wikipedia.org/w/index.php?title=Enzyme&oldid=1060802603,CC BY-SA 4.0,2026-11-15,Enzyme,142
+wiki06,human-wiki,https://en.wikipedia.org/w/index.php?title=Coral_reef&oldid=1062529804,CC BY-SA 4.0,2026-11-15,Coral reef,92
+wiki07,human-wiki,https://en.wikipedia.org/w/index.php?title=Cell_nucleus&oldid=1062484572,CC BY-SA 4.0,2026-11-15,Cell nucleus,96
+wiki08,human-wiki,https://en.wikipedia.org/w/index.php?title=Gravitational_wave&oldid=1060985712,CC BY-SA 4.0,2026-11-15,Gravitational wave,118
+wiki09,human-wiki,https://en.wikipedia.org/w/index.php?title=Periodic_table&oldid=1061719614,CC BY-SA 4.0,2026-11-15,Periodic table,147
+wiki10,human-wiki,https://en.wikipedia.org/w/index.php?title=Tardigrade&oldid=1062180383,CC BY-SA 4.0,2026-11-15,Tardigrade,123
+wiki11,human-wiki,https://en.wikipedia.org/w/index.php?title=Roman_Republic&oldid=1061760036,CC BY-SA 4.0,2026-11-15,Roman Republic,197
+wiki12,human-wiki,https://en.wikipedia.org/w/index.php?title=Black_Death&oldid=1062707906,CC BY-SA 4.0,2026-11-15,Black Death,106
+wiki13,human-wiki,https://en.wikipedia.org/w/index.php?title=Meiji_Restoration&oldid=1061891339,CC BY-SA 4.0,2026-11-15,Meiji Restoration,109
+wiki14,human-wiki,https://en.wikipedia.org/w/index.php?title=Hanseatic_League&oldid=1062688185,CC BY-SA 4.0,2026-11-15,Hanseatic League,106
+wiki15,human-wiki,https://en.wikipedia.org/w/index.php?title=Peace_of_Westphalia&oldid=1061884181,CC BY-SA 4.0,2026-11-15,Peace of Westphalia,132
+wiki16,human-wiki,https://en.wikipedia.org/w/index.php?title=Mali_Empire&oldid=1059809077,CC BY-SA 4.0,2026-11-15,Mali Empire,152
+wiki17,human-wiki,https://en.wikipedia.org/w/index.php?title=Industrial_Revolution&oldid=1061179430,CC BY-SA 4.0,2026-11-15,Industrial Revolution,130
+wiki18,human-wiki,https://en.wikipedia.org/w/index.php?title=Byzantine_Empire&oldid=1062669591,CC BY-SA 4.0,2026-11-15,Byzantine Empire,139
+wiki19,human-wiki,https://en.wikipedia.org/w/index.php?title=Silk_Road&oldid=1062254076,CC BY-SA 4.0,2026-11-15,Silk Road,100
+wiki20,human-wiki,https://en.wikipedia.org/w/index.php?title=Treaty_of_Versailles&oldid=1061925010,CC BY-SA 4.0,2026-11-15,Treaty of Versailles,218
+wiki21,human-wiki,https://en.wikipedia.org/w/index.php?title=Lake_Baikal&oldid=1057001514,CC BY-SA 4.0,2026-11-15,Lake Baikal,91
+wiki22,human-wiki,https://en.wikipedia.org/w/index.php?title=Danube&oldid=1060525673,CC BY-SA 4.0,2026-11-15,Danube,133
+wiki23,human-wiki,https://en.wikipedia.org/w/index.php?title=Atacama_Desert&oldid=1062769410,CC BY-SA 4.0,2026-11-15,Atacama Desert,98
+wiki24,human-wiki,https://en.wikipedia.org/w/index.php?title=Mount_Kilimanjaro&oldid=1061214009,CC BY-SA 4.0,2026-11-15,Mount Kilimanjaro,139
+wiki25,human-wiki,https://en.wikipedia.org/w/index.php?title=Madagascar&oldid=1062816651,CC BY-SA 4.0,2026-11-15,Madagascar,172
+wiki26,human-wiki,https://en.wikipedia.org/w/index.php?title=Ada_Lovelace&oldid=1062187252,CC BY-SA 4.0,2026-11-15,Ada Lovelace,142
+wiki27,human-wiki,https://en.wikipedia.org/w/index.php?title=Marie_Curie&oldid=1061476724,CC BY-SA 4.0,2026-11-15,Marie Curie,132
+wiki28,human-wiki,https://en.wikipedia.org/w/index.php?title=Srinivasa_Ramanujan&oldid=1062294400,CC BY-SA 4.0,2026-11-15,Srinivasa Ramanujan,223
+wiki29,human-wiki,https://en.wikipedia.org/w/index.php?title=Florence_Nightingale&oldid=1061853441,CC BY-SA 4.0,2026-11-15,Florence Nightingale,139
+wiki30,human-wiki,https://en.wikipedia.org/w/index.php?title=Alan_Turing&oldid=1062771755,CC BY-SA 4.0,2026-11-15,Alan Turing,107
+wiki31,human-wiki,https://en.wikipedia.org/w/index.php?title=Tuberculosis&oldid=1062773491,CC BY-SA 4.0,2026-11-15,Tuberculosis,156
+wiki32,human-wiki,https://en.wikipedia.org/w/index.php?title=Insulin&oldid=1060525963,CC BY-SA 4.0,2026-11-15,Insulin,119
+wiki33,human-wiki,https://en.wikipedia.org/w/index.php?title=Malaria&oldid=1062050859,CC BY-SA 4.0,2026-11-15,Malaria,138
+wiki34,human-wiki,https://en.wikipedia.org/w/index.php?title=Hypertension&oldid=1062793712,CC BY-SA 4.0,2026-11-15,Hypertension,135
+wiki35,human-wiki,https://en.wikipedia.org/w/index.php?title=Penicillin&oldid=1061490129,CC BY-SA 4.0,2026-11-15,Penicillin,92
+wiki36,human-wiki,https://en.wikipedia.org/w/index.php?title=Vaccination&oldid=1060039910,CC BY-SA 4.0,2026-11-15,Vaccination,148
+wiki37,human-wiki,https://en.wikipedia.org/w/index.php?title=Cholera&oldid=1062379037,CC BY-SA 4.0,2026-11-15,Cholera,98
+wiki38,human-wiki,https://en.wikipedia.org/w/index.php?title=Smallpox&oldid=1062152306,CC BY-SA 4.0,2026-11-15,Smallpox,102
+wiki39,human-wiki,https://en.wikipedia.org/w/index.php?title=Tobacco_smoking&oldid=1062477772,CC BY-SA 4.0,2026-11-15,Tobacco smoking,147
+wiki40,human-wiki,https://en.wikipedia.org/w/index.php?title=Antimicrobial_resistance&oldid=1062208778,CC BY-SA 4.0,2026-11-15,Antimicrobial resistance,117
+abs01,human-abstracts,http://arxiv.org/abs/2012.15585v1,CC0 (arXiv metadata),2026-11-15,q-bio.PE,125
+abs02,human-abstracts,http://arxiv.org/abs/2012.15448v1,CC0 (arXiv metadata),2026-11-15,q-bio.PE,157
+abs03,human-abstracts,http://arxiv.org/abs/2012.10167v1,CC0 (arXiv metadata),2026-11-15,q-bio.GN,200
+abs04,human-abstracts,http://arxiv.org/abs/2012.10141v1,CC0 (arXiv metadata),2026-11-15,q-bio.GN,205
+abs05,human-abstracts,http://arxiv.org/abs/2012.14844v2,CC0 (arXiv metadata),2026-11-15,stat.ME,218
+abs06,human-abstracts,http://arxiv.org/abs/2012.14823v3,CC0 (arXiv metadata),2026-11-15,stat.ME,137
+abs07,human-abstracts,http://arxiv.org/abs/2012.14081v2,CC0 (arXiv metadata),2026-11-15,stat.AP,136
+abs08,human-abstracts,http://arxiv.org/abs/2012.13926v1,CC0 (arXiv metadata),2026-11-15,stat.AP,221
+abs09,human-abstracts,http://arxiv.org/abs/2012.15682v2,CC0 (arXiv metadata),2026-11-15,cs.CL,145
+abs10,human-abstracts,http://arxiv.org/abs/2012.15674v4,CC0 (arXiv metadata),2026-11-15,cs.CL,153
+abs11,human-abstracts,http://arxiv.org/abs/2012.12422v1,CC0 (arXiv metadata),2026-11-15,physics.soc-ph,156
+abs12,human-abstracts,http://arxiv.org/abs/2012.12345v1,CC0 (arXiv metadata),2026-11-15,physics.soc-ph,143
+abs13,human-abstracts,http://arxiv.org/abs/2012.09248v2,CC0 (arXiv metadata),2026-11-15,physics.bio-ph,165
+abs14,human-abstracts,http://arxiv.org/abs/2012.09215v2,CC0 (arXiv metadata),2026-11-15,physics.bio-ph,86
+abs15,human-abstracts,http://arxiv.org/abs/2012.05912v1,CC0 (arXiv metadata),2026-11-15,q-bio.QM,81
+abs16,human-abstracts,http://arxiv.org/abs/2012.06240v1,CC0 (arXiv metadata),2026-11-15,q-bio.QM,132
+abs17,human-abstracts,http://arxiv.org/abs/2012.14409v2,CC0 (arXiv metadata),2026-11-15,stat.ML,185
+abs18,human-abstracts,http://arxiv.org/abs/2012.14406v2,CC0 (arXiv metadata),2026-11-15,stat.ML,152
+abs19,human-abstracts,http://arxiv.org/abs/2012.15332v2,CC0 (arXiv metadata),2026-11-15,cs.CL,98
+abs20,human-abstracts,http://arxiv.org/abs/2012.15329v3,CC0 (arXiv metadata),2026-11-15,cs.CL,122
+ai01,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Photosynthesis,156
+ai02,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Plate tectonics,157
+ai03,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Superconductivity,157
+ai04,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Black hole,153
+ai05,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Enzyme,140
+ai06,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Coral reef,155
+ai07,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Cell nucleus,153
+ai08,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Gravitational wave,146
+ai09,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Periodic table,138
+ai10,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Tardigrade,147
+ai11,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Roman Republic,155
+ai12,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Black Death,153
+ai13,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Meiji Restoration,135
+ai14,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Hanseatic League,135
+ai15,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Peace of Westphalia,153
+ai16,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Mali Empire,135
+ai17,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Industrial Revolution,137
+ai18,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Byzantine Empire,148
+ai19,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Silk Road,167
+ai20,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Treaty of Versailles,157
+ai21,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Lake Baikal,146
+ai22,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Danube,147
+ai23,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Atacama Desert,154
+ai24,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Mount Kilimanjaro,144
+ai25,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Madagascar,162
+ai26,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Ada Lovelace,150
+ai27,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Marie Curie,139
+ai28,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Srinivasa Ramanujan,149
+ai29,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Florence Nightingale,153
+ai30,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Alan Turing,132
+ai31,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Tuberculosis,138
+ai32,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Insulin,149
+ai33,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Malaria,175
+ai34,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Hypertension,141
+ai35,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Penicillin,143
+ai36,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Vaccination,141
+ai37,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Cholera,167
+ai38,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Smallpox,152
+ai39,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Tobacco smoking,161
+ai40,ai,claude -p --model haiku,"generated, no claim",2026-11-15,Antimicrobial resistance,154

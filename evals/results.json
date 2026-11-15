@@ -1,0 +1,1411 @@
+{
+ "lint_sha256_12": "d0258d003112",
+ "repo_commit": "4a09a9f",
+ "summary": {
+  "human-wiki": {
+   "passages": 40,
+   "words": 5263,
+   "total_fail": 9,
+   "pct_any_fail": 17.5,
+   "pct_any_fail_or_check": 25.0,
+   "fail_per_100_words": 0.17100513015390462
+  },
+  "human-abstracts": {
+   "passages": 20,
+   "words": 3017,
+   "total_fail": 11,
+   "pct_any_fail": 30.0,
+   "pct_any_fail_or_check": 60.0,
+   "fail_per_100_words": 0.3646005966191581
+  },
+  "ai": {
+   "passages": 40,
+   "words": 5974,
+   "total_fail": 6,
+   "pct_any_fail": 15.0,
+   "pct_any_fail_or_check": 32.5,
+   "fail_per_100_words": 0.1004352192835621
+  },
+  "human (both sets)": {
+   "passages": 60,
+   "words": 8280,
+   "total_fail": 20,
+   "pct_any_fail": 21.666666666666668,
+   "pct_any_fail_or_check": 36.666666666666664,
+   "fail_per_100_words": 0.24154589371980675
+  }
+ },
+ "per_rule": [
+  {
+   "level": "FAIL",
+   "rule": "R9",
+   "human_passages": 6,
+   "human_rate": 10.0,
+   "ai_passages": 1,
+   "ai_rate": 2.5,
+   "fp_prone": true
+  },
+  {
+   "level": "FAIL",
+   "rule": "R17",
+   "human_passages": 4,
+   "human_rate": 6.666666666666667,
+   "ai_passages": 0,
+   "ai_rate": 0.0,
+   "fp_prone": true
+  },
+  {
+   "level": "FAIL",
+   "rule": "R4",
+   "human_passages": 3,
+   "human_rate": 5.0,
+   "ai_passages": 0,
+   "ai_rate": 0.0,
+   "fp_prone": true
+  },
+  {
+   "level": "FAIL",
+   "rule": "R11",
+   "human_passages": 2,
+   "human_rate": 3.3333333333333335,
+   "ai_passages": 0,
+   "ai_rate": 0.0,
+   "fp_prone": true
+  },
+  {
+   "level": "FAIL",
+   "rule": "R1",
+   "human_passages": 1,
+   "human_rate": 1.6666666666666667,
+   "ai_passages": 1,
+   "ai_rate": 2.5,
+   "fp_prone": true
+  },
+  {
+   "level": "FAIL",
+   "rule": "R3",
+   "human_passages": 1,
+   "human_rate": 1.6666666666666667,
+   "ai_passages": 1,
+   "ai_rate": 2.5,
+   "fp_prone": true
+  },
+  {
+   "level": "FAIL",
+   "rule": "R6",
+   "human_passages": 0,
+   "human_rate": 0.0,
+   "ai_passages": 3,
+   "ai_rate": 7.5,
+   "fp_prone": false
+  },
+  {
+   "level": "CHECK",
+   "rule": "R9",
+   "human_passages": 9,
+   "human_rate": 15.0,
+   "ai_passages": 1,
+   "ai_rate": 2.5,
+   "fp_prone": true
+  },
+  {
+   "level": "CHECK",
+   "rule": "R73",
+   "human_passages": 2,
+   "human_rate": 3.3333333333333335,
+   "ai_passages": 0,
+   "ai_rate": 0.0,
+   "fp_prone": true
+  },
+  {
+   "level": "CHECK",
+   "rule": "R5",
+   "human_passages": 2,
+   "human_rate": 3.3333333333333335,
+   "ai_passages": 0,
+   "ai_rate": 0.0,
+   "fp_prone": true
+  },
+  {
+   "level": "CHECK",
+   "rule": "R87",
+   "human_passages": 2,
+   "human_rate": 3.3333333333333335,
+   "ai_passages": 0,
+   "ai_rate": 0.0,
+   "fp_prone": true
+  },
+  {
+   "level": "CHECK",
+   "rule": "R76",
+   "human_passages": 2,
+   "human_rate": 3.3333333333333335,
+   "ai_passages": 0,
+   "ai_rate": 0.0,
+   "fp_prone": true
+  },
+  {
+   "level": "CHECK",
+   "rule": "R10",
+   "human_passages": 1,
+   "human_rate": 1.6666666666666667,
+   "ai_passages": 3,
+   "ai_rate": 7.5,
+   "fp_prone": false
+  },
+  {
+   "level": "CHECK",
+   "rule": "R11",
+   "human_passages": 1,
+   "human_rate": 1.6666666666666667,
+   "ai_passages": 1,
+   "ai_rate": 2.5,
+   "fp_prone": true
+  },
+  {
+   "level": "CHECK",
+   "rule": "R17",
+   "human_passages": 1,
+   "human_rate": 1.6666666666666667,
+   "ai_passages": 0,
+   "ai_rate": 0.0,
+   "fp_prone": true
+  },
+  {
+   "level": "CHECK",
+   "rule": "R58",
+   "human_passages": 0,
+   "human_rate": 0.0,
+   "ai_passages": 3,
+   "ai_rate": 7.5,
+   "fp_prone": false
+  }
+ ],
+ "passages": [
+  {
+   "id": "wiki01",
+   "set": "human-wiki",
+   "topic": "Photosynthesis",
+   "words": 127,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki02",
+   "set": "human-wiki",
+   "topic": "Plate tectonics",
+   "words": 151,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki03",
+   "set": "human-wiki",
+   "topic": "Superconductivity",
+   "words": 119,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki04",
+   "set": "human-wiki",
+   "topic": "Black hole",
+   "words": 131,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki05",
+   "set": "human-wiki",
+   "topic": "Enzyme",
+   "words": 142,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki06",
+   "set": "human-wiki",
+   "topic": "Coral reef",
+   "words": 92,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki07",
+   "set": "human-wiki",
+   "topic": "Cell nucleus",
+   "words": 96,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki08",
+   "set": "human-wiki",
+   "topic": "Gravitational wave",
+   "words": 118,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki09",
+   "set": "human-wiki",
+   "topic": "Periodic table",
+   "words": 147,
+   "fail": [],
+   "check": [
+    [
+     1,
+     729,
+     "R11",
+     "rather than"
+    ]
+   ]
+  },
+  {
+   "id": "wiki10",
+   "set": "human-wiki",
+   "topic": "Tardigrade",
+   "words": 123,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki11",
+   "set": "human-wiki",
+   "topic": "Roman Republic",
+   "words": 197,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki12",
+   "set": "human-wiki",
+   "topic": "Black Death",
+   "words": 106,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki13",
+   "set": "human-wiki",
+   "topic": "Meiji Restoration",
+   "words": 109,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki14",
+   "set": "human-wiki",
+   "topic": "Hanseatic League",
+   "words": 106,
+   "fail": [
+    [
+     1,
+     351,
+     "R4",
+     "renowned"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "wiki15",
+   "set": "human-wiki",
+   "topic": "Peace of Westphalia",
+   "words": 132,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki16",
+   "set": "human-wiki",
+   "topic": "Mali Empire",
+   "words": 152,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki17",
+   "set": "human-wiki",
+   "topic": "Industrial Revolution",
+   "words": 130,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki18",
+   "set": "human-wiki",
+   "topic": "Byzantine Empire",
+   "words": 139,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki19",
+   "set": "human-wiki",
+   "topic": "Silk Road",
+   "words": 100,
+   "fail": [
+    [
+     1,
+     30,
+     "R1",
+     "significant role"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "wiki20",
+   "set": "human-wiki",
+   "topic": "Treaty of Versailles",
+   "words": 218,
+   "fail": [
+    [
+     1,
+     1059,
+     "R17",
+     "\u2014"
+    ],
+    [
+     1,
+     1082,
+     "R17",
+     "\u2014"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "wiki21",
+   "set": "human-wiki",
+   "topic": "Lake Baikal",
+   "words": 91,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki22",
+   "set": "human-wiki",
+   "topic": "Danube",
+   "words": 133,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki23",
+   "set": "human-wiki",
+   "topic": "Atacama Desert",
+   "words": 98,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki24",
+   "set": "human-wiki",
+   "topic": "Mount Kilimanjaro",
+   "words": 139,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki25",
+   "set": "human-wiki",
+   "topic": "Madagascar",
+   "words": 172,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki26",
+   "set": "human-wiki",
+   "topic": "Ada Lovelace",
+   "words": 142,
+   "fail": [
+    [
+     1,
+     323,
+     "R17",
+     "\u2014"
+    ]
+   ],
+   "check": [
+    [
+     1,
+     172,
+     "R73",
+     "simply"
+    ]
+   ]
+  },
+  {
+   "id": "wiki27",
+   "set": "human-wiki",
+   "topic": "Marie Curie",
+   "words": 132,
+   "fail": [
+    [
+     1,
+     578,
+     "R17",
+     "\u2014"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "wiki28",
+   "set": "human-wiki",
+   "topic": "Srinivasa Ramanujan",
+   "words": 223,
+   "fail": [
+    [
+     1,
+     607,
+     "R17",
+     "\u2014"
+    ],
+    [
+     1,
+     669,
+     "R17",
+     "\u2014"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "wiki29",
+   "set": "human-wiki",
+   "topic": "Florence Nightingale",
+   "words": 139,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki30",
+   "set": "human-wiki",
+   "topic": "Alan Turing",
+   "words": 107,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki31",
+   "set": "human-wiki",
+   "topic": "Tuberculosis",
+   "words": 156,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki32",
+   "set": "human-wiki",
+   "topic": "Insulin",
+   "words": 119,
+   "fail": [
+    [
+     1,
+     200,
+     "R9",
+     "enhances"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "wiki33",
+   "set": "human-wiki",
+   "topic": "Malaria",
+   "words": 138,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki34",
+   "set": "human-wiki",
+   "topic": "Hypertension",
+   "words": 135,
+   "fail": [],
+   "check": [
+    [
+     1,
+     508,
+     "R5",
+     "associated with"
+    ]
+   ]
+  },
+  {
+   "id": "wiki35",
+   "set": "human-wiki",
+   "topic": "Penicillin",
+   "words": 92,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki36",
+   "set": "human-wiki",
+   "topic": "Vaccination",
+   "words": 148,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki37",
+   "set": "human-wiki",
+   "topic": "Cholera",
+   "words": 98,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki38",
+   "set": "human-wiki",
+   "topic": "Smallpox",
+   "words": 102,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "wiki39",
+   "set": "human-wiki",
+   "topic": "Tobacco smoking",
+   "words": 147,
+   "fail": [],
+   "check": [
+    [
+     1,
+     515,
+     "R5",
+     "associated with"
+    ]
+   ]
+  },
+  {
+   "id": "wiki40",
+   "set": "human-wiki",
+   "topic": "Antimicrobial resistance",
+   "words": 117,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "abs01",
+   "set": "human-abstracts",
+   "topic": "q-bio.PE",
+   "words": 125,
+   "fail": [],
+   "check": [
+    [
+     1,
+     436,
+     "R17",
+     "t -- i"
+    ],
+    [
+     1,
+     514,
+     "R17",
+     "r -- i"
+    ]
+   ]
+  },
+  {
+   "id": "abs02",
+   "set": "human-abstracts",
+   "topic": "q-bio.PE",
+   "words": 157,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "abs03",
+   "set": "human-abstracts",
+   "topic": "q-bio.GN",
+   "words": 200,
+   "fail": [
+    [
+     1,
+     673,
+     "R11",
+     "not only in estimating the magnitude of the causal effect bu"
+    ]
+   ],
+   "check": [
+    [
+     1,
+     159,
+     "R9",
+     "causal"
+    ],
+    [
+     1,
+     592,
+     "R9",
+     "causal"
+    ],
+    [
+     1,
+     717,
+     "R9",
+     "causal"
+    ],
+    [
+     1,
+     783,
+     "R9",
+     "causal"
+    ],
+    [
+     1,
+     970,
+     "R73",
+     "crucially"
+    ],
+    [
+     1,
+     1092,
+     "R9",
+     "causal"
+    ],
+    [
+     1,
+     1211,
+     "R73",
+     "importantly"
+    ]
+   ]
+  },
+  {
+   "id": "abs04",
+   "set": "human-abstracts",
+   "topic": "q-bio.GN",
+   "words": 205,
+   "fail": [
+    [
+     1,
+     217,
+     "R9",
+     "utilize"
+    ],
+    [
+     1,
+     1296,
+     "R4",
+     "showcase"
+    ]
+   ],
+   "check": [
+    [
+     1,
+     172,
+     "R9",
+     "causal"
+    ],
+    [
+     1,
+     319,
+     "R9",
+     "causal"
+    ],
+    [
+     1,
+     970,
+     "R9",
+     "causal"
+    ],
+    [
+     1,
+     1029,
+     "R9",
+     "causal"
+    ]
+   ]
+  },
+  {
+   "id": "abs05",
+   "set": "human-abstracts",
+   "topic": "stat.ME",
+   "words": 218,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "abs06",
+   "set": "human-abstracts",
+   "topic": "stat.ME",
+   "words": 137,
+   "fail": [],
+   "check": [
+    [
+     1,
+     875,
+     "R9",
+     "empirical"
+    ]
+   ]
+  },
+  {
+   "id": "abs07",
+   "set": "human-abstracts",
+   "topic": "stat.AP",
+   "words": 136,
+   "fail": [],
+   "check": [
+    [
+     1,
+     124,
+     "R87",
+     ". Notably,"
+    ],
+    [
+     1,
+     275,
+     "R9",
+     "in terms of"
+    ]
+   ]
+  },
+  {
+   "id": "abs08",
+   "set": "human-abstracts",
+   "topic": "stat.AP",
+   "words": 221,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "abs09",
+   "set": "human-abstracts",
+   "topic": "cs.CL",
+   "words": 145,
+   "fail": [
+    [
+     1,
+     343,
+     "R3",
+     ", illustrating"
+    ],
+    [
+     1,
+     692,
+     "R9",
+     "Additionally"
+    ],
+    [
+     1,
+     721,
+     "R9",
+     "straightforward"
+    ]
+   ],
+   "check": [
+    [
+     1,
+     289,
+     "R9",
+     "highlight"
+    ],
+    [
+     1,
+     651,
+     "R9",
+     "highlights"
+    ],
+    [
+     1,
+     682,
+     "R10",
+     "features"
+    ],
+    [
+     1,
+     690,
+     "R87",
+     ". Additionally,"
+    ]
+   ]
+  },
+  {
+   "id": "abs10",
+   "set": "human-abstracts",
+   "topic": "cs.CL",
+   "words": 153,
+   "fail": [
+    [
+     1,
+     930,
+     "R9",
+     "enhancing"
+    ]
+   ],
+   "check": [
+    [
+     1,
+     704,
+     "R9",
+     "key"
+    ]
+   ]
+  },
+  {
+   "id": "abs11",
+   "set": "human-abstracts",
+   "topic": "physics.soc-ph",
+   "words": 156,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "abs12",
+   "set": "human-abstracts",
+   "topic": "physics.soc-ph",
+   "words": 143,
+   "fail": [],
+   "check": [
+    [
+     1,
+     554,
+     "R76",
+     "in order to"
+    ],
+    [
+     1,
+     816,
+     "R9",
+     "in terms of"
+    ]
+   ]
+  },
+  {
+   "id": "abs13",
+   "set": "human-abstracts",
+   "topic": "physics.bio-ph",
+   "words": 165,
+   "fail": [
+    [
+     1,
+     91,
+     "R9",
+     "valuable"
+    ]
+   ],
+   "check": [
+    [
+     1,
+     158,
+     "R76",
+     "In order to"
+    ]
+   ]
+  },
+  {
+   "id": "abs14",
+   "set": "human-abstracts",
+   "topic": "physics.bio-ph",
+   "words": 86,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "abs15",
+   "set": "human-abstracts",
+   "topic": "q-bio.QM",
+   "words": 81,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "abs16",
+   "set": "human-abstracts",
+   "topic": "q-bio.QM",
+   "words": 132,
+   "fail": [],
+   "check": [
+    [
+     1,
+     360,
+     "R9",
+     "with regard to"
+    ]
+   ]
+  },
+  {
+   "id": "abs17",
+   "set": "human-abstracts",
+   "topic": "stat.ML",
+   "words": 185,
+   "fail": [],
+   "check": [
+    [
+     1,
+     592,
+     "R9",
+     "key"
+    ]
+   ]
+  },
+  {
+   "id": "abs18",
+   "set": "human-abstracts",
+   "topic": "stat.ML",
+   "words": 152,
+   "fail": [
+    [
+     1,
+     543,
+     "R11",
+     "not only from scientific and social domains, but"
+    ],
+    [
+     1,
+     658,
+     "R9",
+     "facilitate"
+    ],
+    [
+     1,
+     728,
+     "R4",
+     "showcase"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "abs19",
+   "set": "human-abstracts",
+   "topic": "cs.CL",
+   "words": 98,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "abs20",
+   "set": "human-abstracts",
+   "topic": "cs.CL",
+   "words": 122,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai01",
+   "set": "ai",
+   "topic": "Photosynthesis",
+   "words": 156,
+   "fail": [],
+   "check": [
+    [
+     1,
+     584,
+     "R58",
+     "ultimately"
+    ]
+   ]
+  },
+  {
+   "id": "ai02",
+   "set": "ai",
+   "topic": "Plate tectonics",
+   "words": 157,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai03",
+   "set": "ai",
+   "topic": "Superconductivity",
+   "words": 157,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai04",
+   "set": "ai",
+   "topic": "Black hole",
+   "words": 153,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai05",
+   "set": "ai",
+   "topic": "Enzyme",
+   "words": 140,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai06",
+   "set": "ai",
+   "topic": "Coral reef",
+   "words": 155,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai07",
+   "set": "ai",
+   "topic": "Cell nucleus",
+   "words": 153,
+   "fail": [
+    [
+     1,
+     462,
+     "R1",
+     "serves as"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "ai08",
+   "set": "ai",
+   "topic": "Gravitational wave",
+   "words": 146,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai09",
+   "set": "ai",
+   "topic": "Periodic table",
+   "words": 138,
+   "fail": [
+    [
+     1,
+     754,
+     "R9",
+     "enduring"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "ai10",
+   "set": "ai",
+   "topic": "Tardigrade",
+   "words": 147,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai11",
+   "set": "ai",
+   "topic": "Roman Republic",
+   "words": 155,
+   "fail": [],
+   "check": [
+    [
+     1,
+     927,
+     "R58",
+     "ultimately"
+    ]
+   ]
+  },
+  {
+   "id": "ai12",
+   "set": "ai",
+   "topic": "Black Death",
+   "words": 153,
+   "fail": [
+    [
+     1,
+     810,
+     "R3",
+     ", contributing to"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "ai13",
+   "set": "ai",
+   "topic": "Meiji Restoration",
+   "words": 135,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai14",
+   "set": "ai",
+   "topic": "Hanseatic League",
+   "words": 135,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai15",
+   "set": "ai",
+   "topic": "Peace of Westphalia",
+   "words": 153,
+   "fail": [],
+   "check": [
+    [
+     1,
+     25,
+     "R10",
+     "refers to"
+    ]
+   ]
+  },
+  {
+   "id": "ai16",
+   "set": "ai",
+   "topic": "Mali Empire",
+   "words": 135,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai17",
+   "set": "ai",
+   "topic": "Industrial Revolution",
+   "words": 137,
+   "fail": [],
+   "check": [
+    [
+     1,
+     219,
+     "R9",
+     "key"
+    ],
+    [
+     1,
+     734,
+     "R58",
+     "ultimately"
+    ]
+   ]
+  },
+  {
+   "id": "ai18",
+   "set": "ai",
+   "topic": "Byzantine Empire",
+   "words": 148,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai19",
+   "set": "ai",
+   "topic": "Silk Road",
+   "words": 167,
+   "fail": [],
+   "check": [
+    [
+     1,
+     255,
+     "R10",
+     "refers to"
+    ]
+   ]
+  },
+  {
+   "id": "ai20",
+   "set": "ai",
+   "topic": "Treaty of Versailles",
+   "words": 157,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai21",
+   "set": "ai",
+   "topic": "Lake Baikal",
+   "words": 146,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai22",
+   "set": "ai",
+   "topic": "Danube",
+   "words": 147,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai23",
+   "set": "ai",
+   "topic": "Atacama Desert",
+   "words": 154,
+   "fail": [
+    [
+     1,
+     213,
+     "R6",
+     "widely regarded"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "ai24",
+   "set": "ai",
+   "topic": "Mount Kilimanjaro",
+   "words": 144,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai25",
+   "set": "ai",
+   "topic": "Madagascar",
+   "words": 162,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai26",
+   "set": "ai",
+   "topic": "Ada Lovelace",
+   "words": 150,
+   "fail": [
+    [
+     1,
+     586,
+     "R6",
+     "widely regarded"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "ai27",
+   "set": "ai",
+   "topic": "Marie Curie",
+   "words": 139,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai28",
+   "set": "ai",
+   "topic": "Srinivasa Ramanujan",
+   "words": 149,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai29",
+   "set": "ai",
+   "topic": "Florence Nightingale",
+   "words": 153,
+   "fail": [],
+   "check": [
+    [
+     1,
+     648,
+     "R11",
+     "rather than"
+    ]
+   ]
+  },
+  {
+   "id": "ai30",
+   "set": "ai",
+   "topic": "Alan Turing",
+   "words": 132,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai31",
+   "set": "ai",
+   "topic": "Tuberculosis",
+   "words": 138,
+   "fail": [],
+   "check": [
+    [
+     1,
+     702,
+     "R10",
+     "offers"
+    ]
+   ]
+  },
+  {
+   "id": "ai32",
+   "set": "ai",
+   "topic": "Insulin",
+   "words": 149,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai33",
+   "set": "ai",
+   "topic": "Malaria",
+   "words": 175,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai34",
+   "set": "ai",
+   "topic": "Hypertension",
+   "words": 141,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai35",
+   "set": "ai",
+   "topic": "Penicillin",
+   "words": 143,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai36",
+   "set": "ai",
+   "topic": "Vaccination",
+   "words": 141,
+   "fail": [
+    [
+     1,
+     961,
+     "R6",
+     "widely regarded"
+    ]
+   ],
+   "check": []
+  },
+  {
+   "id": "ai37",
+   "set": "ai",
+   "topic": "Cholera",
+   "words": 167,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai38",
+   "set": "ai",
+   "topic": "Smallpox",
+   "words": 152,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai39",
+   "set": "ai",
+   "topic": "Tobacco smoking",
+   "words": 161,
+   "fail": [],
+   "check": []
+  },
+  {
+   "id": "ai40",
+   "set": "ai",
+   "topic": "Antimicrobial resistance",
+   "words": 154,
+   "fail": [],
+   "check": []
+  }
+ ]
+}
