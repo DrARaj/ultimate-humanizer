@@ -4,14 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ultimate-humanizer"
-version = "1.1.0"
+version = "1.1.1"
 description = "Flags mechanical AI-writing tells in prose and markdown files."
 readme = "README.md"
 license = "MIT AND CC-BY-SA-4.0"
 license-files = ["LICENSE", "LICENSES/*"]
 authors = [{ name = "DrARaj" }]
 requires-python = ">=3.8"
-keywords = ["ai-writing", "claude-code", "linter", "writing", "ai-detection"]
+keywords = ["ai-writing", "claude-code", "linter", "writing", "writing-style"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",

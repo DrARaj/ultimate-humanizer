@@ -1,18 +1,27 @@
 <p align="center"><img src="assets/banner.png" alt="Ultimate Humanizer: delve, tapestry, pivotal and other AI writing tells struck through" width="100%"></p>
 
 <p align="center">
-  <a href="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml"><img src="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml/badge.svg" alt="lint selftest"></a>
-  <a href="https://github.com/DrARaj/ultimate-humanizer/releases"><img src="https://img.shields.io/github/v/release/DrARaj/ultimate-humanizer" alt="release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/DrARaj/ultimate-humanizer" alt="license"></a>
-  <a href="https://github.com/DrARaj/ultimate-humanizer/stargazers"><img src="https://img.shields.io/github/stars/DrARaj/ultimate-humanizer?style=flat&logo=github" alt="stars"></a>
-  <img src="https://img.shields.io/badge/Claude%20Code-skill-D97757?logo=claude&logoColor=white" alt="Claude Code skill">
+  <a href="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml"><img src="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml/badge.svg" alt="lint selftest status"></a>
+  <a href="https://github.com/DrARaj/ultimate-humanizer/releases"><img src="https://img.shields.io/github/v/release/DrARaj/ultimate-humanizer?style=flat-square&color=D97757" alt="latest release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/DrARaj/ultimate-humanizer?style=flat-square" alt="licence"></a>
+  <a href="https://github.com/DrARaj/ultimate-humanizer/stargazers"><img src="https://img.shields.io/github/stars/DrARaj/ultimate-humanizer?style=flat-square&logo=github" alt="GitHub stars"></a>
+  <img src="https://img.shields.io/badge/Claude%20Code-skill-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code skill">
 </p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt=""></p>
+<p align="center">
+  <a href="#install">Install</a> &nbsp;&nbsp; <a href="#before-and-after">Before and after</a> &nbsp;&nbsp; <a href="#what-it-does">Rules</a> &nbsp;&nbsp; <a href="#use">Use</a> &nbsp;&nbsp; <a href="#credits">Credits</a> &nbsp;&nbsp; <a href="#license">Licence</a>
+</p>
 
 # Ultimate Humanizer
 
 A Claude Code skill that keeps AI writing tells out of your text. It turns every pattern in Wikipedia's "Signs of AI writing" field guide into a numbered rule, adds the extra patterns from the humanizer and no-ai-slop skills, and ships a lint script that catches the mechanical ones.
+
+```sh
+claude plugin marketplace add DrARaj/ultimate-humanizer
+claude plugin install ultimate-humanizer@drarj
+```
+
+Restart Claude Code, then type `/ultimate-humanizer`. Other install routes are [below](#install).
 
 ## Before and after
 
@@ -199,7 +208,7 @@ Catch AI tells before commits land in PRs. Add this to your `.pre-commit-config.
 ```yaml
 repos:
   - repo: https://github.com/DrARaj/ultimate-humanizer
-    rev: v1.1.0
+    rev: v1.1.1
     hooks:
       - id: ultimate-humanizer
 ```
@@ -250,5 +259,3 @@ Built on the Wikipedia guide "Signs of AI writing" by WikiProject AI Cleanup (CC
 ## License
 
 The code is MIT, see `LICENSE`. That covers `scripts/`, the install scripts, `pyproject.toml`, the hook definition and the workflows. The rule text in `SKILL.md` (and `ultimate-humanizer-card.md`, where present) adapts Wikipedia's "Signs of AI writing", so it is CC BY-SA 4.0, see `LICENSES/CC-BY-SA-4.0.txt`. Third-party material keeps its original license, listed in `NOTICE`. The banner source is [`assets/banner.html`](assets/banner.html).
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:D97757&height=100&section=footer" alt="" width="100%" />
