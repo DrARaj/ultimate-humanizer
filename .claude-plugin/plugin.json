@@ -1,8 +1,13 @@
 {
   "name": "ultimate-humanizer",
+  "displayName": "Ultimate Humanizer",
   "description": "Rules and a linter that flag mechanical AI-writing tells in prose and markdown.",
-  "version": "1.1.1",
-  "author": { "name": "DrARaj" },
+  "version": "1.1.2",
+  "author": { "name": "Ankit Raj", "url": "https://github.com/DrARaj" },
+  "homepage": "https://github.com/DrARaj/ultimate-humanizer",
+  "repository": "https://github.com/DrARaj/ultimate-humanizer",
   "license": "MIT AND CC-BY-SA-4.0",
+  "keywords": ["writing", "ai-writing", "editing", "linter", "prose", "wikipedia", "style"],
+  "icon": ".claude-plugin/icon.png",
   "skills": ["./"]
 }

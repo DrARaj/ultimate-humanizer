@@ -208,7 +208,7 @@ Catch AI tells before commits land in PRs. Add this to your `.pre-commit-config.
 ```yaml
 repos:
   - repo: https://github.com/DrARaj/ultimate-humanizer
-    rev: v1.1.1
+    rev: v1.1.2
     hooks:
       - id: ultimate-humanizer
 ```
