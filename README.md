@@ -244,6 +244,7 @@ Use the ultimate-humanizer skill for any prose, commit message or edit summary y
 
 - `quick_validate.py` from Anthropic's skill-creator: passes.
 - `lint.py --selftest`: passes, and runs in CI on every push.
+- [Lint evaluation](evals/RESULTS.md): `lint.py` found at least one FAIL in 22% of 60 human passages (Wikipedia before 2022 and arXiv abstracts) and in 15% of 40 passages written by Claude Haiku. Small samples, one model, one prompt.
 - A coverage script checked that 150 distinct patterns from the three sources each appear in `SKILL.md`. None were missing.
 - skill-comply ran three commit-message scenarios (supportive, neutral, competing). It reported 0%, for two reasons: its classifier output failed to parse, and the outputs of these scenarios are plain text, which it cannot observe. The scenarios were then run directly and the messages linted. All three had zero FAIL. With the skill loaded, the competing prompt (which asked to "emphasize significance") produced a plain, factual message and asked for a real example instead of inventing one. Without the skill loaded, the same prompt invented example addresses, which led to the R0 rule against illustrative details.
 
