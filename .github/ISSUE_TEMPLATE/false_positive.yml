@@ -21,6 +21,6 @@ body:
     id: context
     attributes:
       label: Context & Why it should be allowed
-      description: Explain why this is natural, non-AI prose in this context.
+      description: Explain why this wording is natural in this context.
     validations:
       required: true

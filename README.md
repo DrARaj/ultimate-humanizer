@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.png" alt="Ultimate Humanizer: delve, tapestry, pivotal and other AI writing tells struck through" width="100%"></p>
+<p align="center"><img src="assets/banner.png" alt="Ultimate Humanizer: delve, tapestry, pivotal and other stock phrasing struck through" width="100%"></p>
 
 <p align="center">
   <a href="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml"><img src="https://github.com/DrARaj/ultimate-humanizer/actions/workflows/lint.yml/badge.svg" alt="lint selftest status"></a>
@@ -14,7 +14,7 @@
 
 # Ultimate Humanizer
 
-A Claude Code skill that keeps AI writing tells out of your text. It turns every pattern in Wikipedia's "Signs of AI writing" field guide into a numbered rule, adds the extra patterns from the humanizer and no-ai-slop skills, and ships a lint script that catches the mechanical ones.
+A Claude Code writing-style guide and linter. It turns the patterns in Wikipedia's "Signs of AI writing" field guide into 91 numbered rules, adds patterns from the humanizer and no-ai-slop skills, and ships a lint script that flags phrasing habits common in AI-generated prose, which human writers also use. It helps you edit prose. It does not detect or judge who wrote a text.
 
 ```sh
 claude plugin marketplace add DrARaj/ultimate-humanizer
@@ -37,8 +37,8 @@ This paragraph was written to be bad on purpose:
 
 ## What it does
 
-- Writing and editing: prose, wiki text, docs, emails, comments, commit messages and edit summaries come out without the listed tells.
-- Auditing: ask whether a piece reads as AI and you get findings with a rule number, the quoted line and a short fix. It does not score text or claim to know who wrote it.
+- Writing and editing: prose, wiki text, docs, emails, comments, commit messages and edit summaries come out without the listed habits.
+- Auditing: ask for an audit and you get findings with a rule number, the quoted line and a short fix. It does not score text or claim to know who wrote it.
 
 | Part | Rules | Covers |
 |---|---|---|
@@ -176,16 +176,6 @@ git clone https://github.com/DrARaj/ultimate-humanizer ~/.claude/skills/ultimate
 git clone https://github.com/DrARaj/ultimate-humanizer.git "$HOME\.claude\skills\ultimate-humanizer"
 ```
 
-**One-line Quick Install:**
-- macOS / Linux:
-  ```sh
-  curl -fsSL https://raw.githubusercontent.com/DrARaj/ultimate-humanizer/main/scripts/install.sh | bash
-  ```
-- Windows (PowerShell):
-  ```powershell
-  irm https://raw.githubusercontent.com/DrARaj/ultimate-humanizer/main/scripts/install.ps1 | iex
-  ```
-
 Restart Claude Code. The skill shows up as `/ultimate-humanizer`.
 
 ### 2. Standalone CLI & Python Package
@@ -203,12 +193,12 @@ ai-lint draft.md
 
 ### 3. Pre-Commit Hook (Git Repositories & CI)
 
-Catch AI tells before commits land in PRs. Add this to your `.pre-commit-config.yaml`:
+Flag stock phrasing before commits land in PRs. Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
 repos:
   - repo: https://github.com/DrARaj/ultimate-humanizer
-    rev: v1.1.2
+    rev: v1.1.3
     hooks:
       - id: ultimate-humanizer
 ```
@@ -222,7 +212,7 @@ git clone https://github.com/DrARaj/ultimate-humanizer.git ~/.gemini/antigravity
 ## Use
 
 - Type `/ultimate-humanizer` and paste a draft, or point it at a file.
-- Ask "does this read as AI?" for an audit without a rewrite.
+- Ask for an audit to get findings without a rewrite.
 - Lint any text yourself:
 
 ```sh
@@ -252,6 +242,7 @@ Use the ultimate-humanizer skill for any prose, commit message or edit summary y
 
 - The linter catches wording and formatting. Voice, rhythm, invented facts and citation accuracy need the checklist in `SKILL.md` and a human read.
 - Style signs are evidence, not proof. Plenty of people write with bold text or curly quotes.
+- The linter is not an authorship detector: in the [lint evaluation](evals/RESULTS.md) it reported at least one FAIL in 22% of 60 human passages written before 2022 and in 15% of 40 Claude Haiku passages, so neither a FAIL nor a clean result says who wrote a text.
 
 ## Credits
 

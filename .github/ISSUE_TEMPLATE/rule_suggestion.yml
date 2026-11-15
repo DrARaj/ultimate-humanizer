@@ -1,5 +1,5 @@
-name: Suggest a new AI Tell / Rule
-description: Propose a new AI-writing pattern, overused phrase, or tell to add to the rulebook.
+name: Suggest a new writing-habit rule
+description: Propose a phrasing habit common in AI-generated prose to add to the rulebook.
 labels: ["enhancement", "rules"]
 body:
   - type: markdown
@@ -17,8 +17,8 @@ body:
   - type: textarea
     id: rationale
     attributes:
-      label: Why is this an AI tell?
-      description: Cite evidence, model tendencies, or frequency in LLM output.
+      label: Why is this a common AI-writing habit?
+      description: Cite evidence, model tendencies, or frequency in LLM output. Also say whether human writers use it, since the linter cannot tell who wrote a text.
     validations:
       required: true
   - type: textarea

@@ -1,6 +1,6 @@
 - id: ultimate-humanizer
   name: ultimate-humanizer
-  description: Flags mechanical AI-writing tells in prose and markdown files
+  description: Flags phrasing habits common in AI-generated prose in markdown and text files (not an authorship detector)
   entry: ultimate-humanizer
   language: python
   types: [text]

@@ -1,12 +1,13 @@
 {
   "name": "drarj",
+  "description": "Plugins by DrARaj: a writing-style guide and linter for editing prose.",
   "owner": { "name": "DrARaj" },
   "plugins": [
     {
       "name": "ultimate-humanizer",
       "source": "./",
-      "description": "Rules and a linter that flag mechanical AI-writing tells in prose and markdown.",
-      "version": "1.1.2"
+      "description": "Rules and a linter for editing prose: a writing-style guide adapted from Wikipedia's Signs of AI writing guide, plus a linter that flags phrasing habits common in AI-generated text.",
+      "version": "1.1.3"
     }
   ]
 }
