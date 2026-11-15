@@ -1,0 +1,8 @@
+{
+  "name": "ultimate-humanizer",
+  "description": "Rules and a linter that flag mechanical AI-writing tells in prose and markdown.",
+  "version": "1.1.0",
+  "author": { "name": "DrARaj" },
+  "license": "MIT AND CC-BY-SA-4.0",
+  "skills": ["./"]
+}

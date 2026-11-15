@@ -1,0 +1,12 @@
+{
+  "name": "drarj",
+  "owner": { "name": "DrARaj" },
+  "plugins": [
+    {
+      "name": "ultimate-humanizer",
+      "source": "./",
+      "description": "Rules and a linter that flag mechanical AI-writing tells in prose and markdown.",
+      "version": "1.1.0"
+    }
+  ]
+}

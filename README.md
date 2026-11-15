@@ -146,6 +146,17 @@ R0 sits above all of them: never invent a fact, source, person, example or opini
 
 ### 1. Claude Code
 
+**Plugin marketplace (recommended):**
+```sh
+claude plugin marketplace add DrARaj/ultimate-humanizer
+claude plugin install ultimate-humanizer@drarj
+```
+
+**Skills CLI (untested):**
+```sh
+npx skills add DrARaj/ultimate-humanizer
+```
+
 **macOS / Linux:**
 ```sh
 git clone https://github.com/DrARaj/ultimate-humanizer ~/.claude/skills/ultimate-humanizer
@@ -188,7 +199,7 @@ Catch AI tells before commits land in PRs. Add this to your `.pre-commit-config.
 ```yaml
 repos:
   - repo: https://github.com/DrARaj/ultimate-humanizer
-    rev: v1.0.0
+    rev: v1.1.0
     hooks:
       - id: ultimate-humanizer
 ```
@@ -238,6 +249,6 @@ Built on the Wikipedia guide "Signs of AI writing" by WikiProject AI Cleanup (CC
 
 ## License
 
-MIT, see `LICENSE`. Third-party material keeps its original license, listed in `NOTICE`. The banner source is [`assets/banner.html`](assets/banner.html).
+The code is MIT, see `LICENSE`. That covers `scripts/`, the install scripts, `pyproject.toml`, the hook definition and the workflows. The rule text in `SKILL.md` (and `ultimate-humanizer-card.md`, where present) adapts Wikipedia's "Signs of AI writing", so it is CC BY-SA 4.0, see `LICENSES/CC-BY-SA-4.0.txt`. Third-party material keeps its original license, listed in `NOTICE`. The banner source is [`assets/banner.html`](assets/banner.html).
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:D97757&height=100&section=footer" alt="" width="100%" />

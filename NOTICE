@@ -1,3 +1,5 @@
+Licensing by file: the code (scripts/, install scripts, pyproject.toml, .pre-commit-hooks.yaml, .github/workflows) is under the MIT License in LICENSE. The rule text (SKILL.md and ultimate-humanizer-card.md, where present) is under CC BY-SA 4.0, full text in LICENSES/CC-BY-SA-4.0.txt, because it adapts item 1 below.
+
 Ultimate Humanizer includes material adapted from the works below.
 
 1. Wikipedia: Signs of AI writing
